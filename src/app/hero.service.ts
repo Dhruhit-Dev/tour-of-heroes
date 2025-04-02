@@ -1,10 +1,10 @@
-import { Hero } from './Hero';
+
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MessageService } from './message.service';
 import { HEROES } from './mock-heroes';
-
+import { Hero } from './Hero';
 @Injectable({ providedIn: 'root' })
 export class HeroService {
 
